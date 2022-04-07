@@ -15,6 +15,6 @@ footer {
 </style>
 <footer>
     <div class="content">
-        &copy; Copyright by C-Auth {year}
-    </div>
+		&copy; 2021 Benedict Mihm | <a href="/terms">Terms</a> | <a href="/privacy">Privacy</a>
+	</div>
 </footer>
