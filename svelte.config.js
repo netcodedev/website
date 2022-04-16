@@ -6,7 +6,17 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		vite: {
+			server: {
+				fs: {
+					allow: ['.']
+				}
+			}
+		},
+		prerender: {
+			onError: 'continue'
+		}
 	}
 };
 
