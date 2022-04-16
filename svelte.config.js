@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import md from "mdsvex";
+import md from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -13,7 +13,7 @@ const config = {
 		vite: {
 			server: {
 				fs: {
-					allow: ['.'],
+					allow: ['.']
 				}
 			}
 		},
