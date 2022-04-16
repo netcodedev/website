@@ -48,7 +48,7 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style lang="scss" global>
 	hr {
 		border: 1px solid var(--color-bg-12-5);
 	}
