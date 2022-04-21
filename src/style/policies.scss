@@ -1,0 +1,120 @@
+#stage {
+	color: #444;
+	padding: 25px;
+	width: calc(100% - 40px);
+	margin: 0px auto;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+	a {
+		color: #427FED;
+	}
+}
+.policy {
+	background-color: white;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+	h1 {
+		font-weight: normal;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	h2 {
+		font-weight: normal;
+		font-size: 20px;
+		text-decoration: underline;
+		margin-bottom: 5px;
+	}
+	h3 {
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 24px;
+		margin-bottom: 10px;
+		text-align: justify;
+	}
+	h4 {
+		font-weight: normal;
+		font-size: 20px;
+		margin-bottom: 5px;
+		margin-top: 15px;
+	}
+	q {
+		font-style: italic;
+	}
+	#answer {
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 24px;
+		margin-bottom: 25px;
+		text-align: justify;
+		width: 92.5%;
+		margin-left: 2.5%;
+		padding-left: 15px;
+		padding-top: 5px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		border-style: double none none solid;
+		border-color: #427FED;
+		background-color: white;
+		/*border-left: 1px solid #427FED;
+		border-top: 1px solid #427FED;*/
+	}
+	#quote {
+		padding: 15px;
+		background-color: white;
+		border: 1px solid #DDD;
+		width: 46%;
+		margin-left: 85px;
+		vertical-align: middle;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.bubble_w_l {
+		width: 0;
+		height: 0;
+		float: left;
+		position: absolute;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-right: 10px solid white;
+		margin-left: -25px;
+		margin-top: 15px;
+	}
+	.bubble_g_l {
+		width: 0;
+		height: 0;
+		float: left;
+		position: absolute;
+		border-top: 11px solid transparent;
+		border-bottom: 11px solid transparent;
+		border-right: 11px solid #DDD;
+		margin-left: -26px;
+		margin-top: 14px;
+	}
+	.bubble_w_r {
+		width: 0;
+		height: 0;
+		position: absolute;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-right: 10px solid #FFF;
+		margin-left: -25px;
+		margin-top: 25px;
+	}
+	.bubble_g_r {
+		width: 0;
+		height: 0;
+		position: absolute;
+		border-top: 11px solid transparent;
+		border-bottom: 11px solid transparent;
+		border-right: 11px solid #427FED;
+		margin-top: 24px;
+		margin-left: -29px;
+	}
+	#date_of_validity {
+		float: right;
+		color: #888;
+	}
+}
