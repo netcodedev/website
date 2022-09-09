@@ -1,5 +1,5 @@
 <script>
-    import "../style/policies.scss"
+    import "../../style/policies.scss"
 </script>
 <div class="banner">
 	<div class="opacity-overlay"></div>

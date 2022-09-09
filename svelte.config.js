@@ -7,13 +7,6 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		vite: {
-			server: {
-				fs: {
-					allow: ['.']
-				}
-			}
-		},
 		prerender: {
 			onError: 'continue'
 		}
