@@ -31,6 +31,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"marked": "^4.0.14"
+		"marked": "^4.1.0"
 	}
 }
