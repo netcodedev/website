@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { page } from '$app/stores';
 
 	function ucfirst(string) {
@@ -13,12 +13,6 @@
 
 <svelte:head>
 	<title>netcode.dev &there4; {url}</title>
-	<link
-		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
-		crossorigin="anonymous"
-	/>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </svelte:head>
 <header>
 	<div class="content">

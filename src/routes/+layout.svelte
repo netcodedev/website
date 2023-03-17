@@ -1,7 +1,6 @@
 <script>
-	import Header from '../components/Header.svelte';
-	import Content from '../components/Content.svelte';
-	import Footer from '../components/Footer.svelte';
+	import '../app.postcss';
+	import { Header, Content, Footer } from '$lib/components';
 	import '../style/global.scss';
 </script>
 

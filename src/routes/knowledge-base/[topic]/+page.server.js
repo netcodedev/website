@@ -1,5 +1,5 @@
 export async function load({ params }) {
 	return {
-		topic
+		topic: params.topic
 	};
 }

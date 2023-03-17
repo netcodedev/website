@@ -33,8 +33,9 @@
 					type="search"
 					placeholder="Search through the knowledge base"
 					name="search"
+					class="input"
 					value={search}
-				/><button><i class="material-icons">search</i></button>
+				/><button class="btn"><i class="material-icons">search</i></button>
 			</form>
 		</div>
 	</div>
@@ -110,7 +111,7 @@
 	#knowledge-base #search form button {
 		border-radius: 0 100px 100px 0;
 		color: white;
-		padding: 10px 10px 7px 10px;
+		padding: 12px 10px 6px 10px;
 	}
 	#knowledge-base #search form button i {
 		font-size: 34px;

@@ -1,3 +1,7 @@
+<script>
+	import ArrowDown from 'svelte-material-icons/ChevronDown.svelte';
+</script>
+
 <div class="banner fullscreen">
 	<div class="opacity-overlay" />
 	<div id="particles-js" />
@@ -5,7 +9,7 @@
 		<div class="image-wrapper big portrait"><img src="/images/ben.png" alt="Ben" /></div>
 		<span id="main-text-animate" class="text">Hello World!</span>
 	</div>
-	<button class="scroll-down material-icons">expand_more</button>
+	<button class="scroll-down text-5xl"><ArrowDown /></button>
 </div>
 <div id="main-content">
 	<div id="profile">
