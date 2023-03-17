@@ -1,10 +1,9 @@
 <script script>
-	import fs from 'fs';
 	import { marked } from 'marked';
 
 	export let data;
 	
-	const md = marked.parse(fs.readFileSync('./static/knowledge-base/' + data.topic + '.md', 'utf8'));
+	const md = marked.parse(data.topic);
 </script>
 
 <div id="content" class="content">
