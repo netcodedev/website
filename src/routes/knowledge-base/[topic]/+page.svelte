@@ -1,9 +1,9 @@
-<script script>
+<script>
 	import { marked } from 'marked';
 
 	export let data;
-	
-	const md = marked.parse(data.topic);
+	let md = marked.parse(data.topic);
+	$: md = marked.parse(data.topic);
 </script>
 
 <div id="content" class="content">
