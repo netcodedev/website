@@ -1,14 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import fs from 'fs';
+	export let data;
 
 	const search = $page.url.searchParams.get('search');
-	let topics = [];
-	fs.readdirSync('./static/knowledge-base/').forEach((file) => {
-		if (!file.startsWith('.') && file != 'LICENSE') {
-			topics.push(file.substring(0, file.length - 3));
-		}
-	});
 </script>
 
 <div class="banner">
@@ -42,7 +36,7 @@
 	<slot />
 	<div class="content">
 		<div id="topics">
-			{#each topics as topic}
+			{#each data.topics as topic}
 				<a href="/knowledge-base/{topic}">{topic}</a>
 			{/each}
 		</div>
