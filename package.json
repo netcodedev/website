@@ -33,7 +33,7 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^3.0.0",
-		"marked": "^5.0.3",
+		"marked": "^5.0.4",
 		"svelte-material-icons": "^3.0.4"
 	}
 }
