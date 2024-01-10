@@ -1,23 +1,12 @@
 <script>
 	import { page } from '$app/stores';
+	import { Button } from '$lib/components/ui/button';
 </script>
 
-<div class="flex justify-center w-full">
-	<div class="alert alert-error shadow-lg w-max min-w-min m-5">
-		<div>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="stroke-current flex-shrink-0 h-6 w-6"
-				fill="none"
-				viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-			</svg>
-			<h1 class="font-bold">Error {$page.status}:</h1>
-			<span>{$page.error.message}</span>
-		</div>
+<div class="flex h-screen flex-col items-center justify-center">
+	<div class="max-w-md">
+		<h1 class="text-5xl font-bold">{$page.status}</h1>
+		<p class="py-1">{$page?.error?.message}</p>
+		<Button href="/">Back</Button>
 	</div>
 </div>
