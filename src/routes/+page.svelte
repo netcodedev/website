@@ -338,6 +338,9 @@
         background-color: #84605b;
 		@apply flex flex-wrap justify-center py-8;
 	}
+    section > div > h1 {
+        margin-left: 1rem;
+    }
 	.timeline {
 		list-style: none;
 		padding: 0;
