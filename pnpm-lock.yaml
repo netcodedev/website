@@ -33,10 +33,10 @@ dependencies:
 devDependencies:
   '@sveltejs/adapter-node':
     specifier: ^2.1.1
-    version: 2.1.1(@sveltejs/kit@2.2.1)
+    version: 2.1.1(@sveltejs/kit@2.2.2)
   '@sveltejs/kit':
-    specifier: ^2.2.1
-    version: 2.2.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
+    specifier: ^2.2.2
+    version: 2.2.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
   '@sveltejs/vite-plugin-svelte':
     specifier: ^3.0.0
     version: 3.0.1(svelte@4.2.8)(vite@5.0.11)
@@ -662,7 +662,7 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/adapter-node@2.1.1(@sveltejs/kit@2.2.1):
+  /@sveltejs/adapter-node@2.1.1(@sveltejs/kit@2.2.2):
     resolution: {integrity: sha512-ypAqdvjoyfOEgucDbY3P6DM6nLEQ7OwiWMfyITKF8svffe9FIx1ow6uELJd1BzbCrouYndkQfc5m6ihj0xxqTg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
@@ -670,12 +670,12 @@ packages:
       '@rollup/plugin-commonjs': 25.0.7(rollup@4.9.4)
       '@rollup/plugin-json': 6.1.0(rollup@4.9.4)
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.9.4)
-      '@sveltejs/kit': 2.2.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
+      '@sveltejs/kit': 2.2.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
       rollup: 4.9.4
     dev: true
 
-  /@sveltejs/kit@2.2.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11):
-    resolution: {integrity: sha512-MaVvrAuH9mfb8oV1U3soQY6UFCphODvZLZqnGHxYFAuDmljXDgTJk07QsSg+YpFoC4rJajpOR7KsqEw5IXYf9w==}
+  /@sveltejs/kit@2.2.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11):
+    resolution: {integrity: sha512-1X6TFzOC/93h7xUEv+gasb289BbSNNbDxX0upyRvoAL86brZkl2thytRRroMu1ha7HOeR1UlDssDR+xLnBg78w==}
     engines: {node: '>=18.13'}
     hasBin: true
     requiresBuild: true
