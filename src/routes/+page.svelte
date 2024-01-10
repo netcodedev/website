@@ -56,7 +56,9 @@
 				<div class="timeline-start">2020</div>
 				<div class="timeline-content">
 					<h3>SOKA Dach</h3>
-					Again emplyed by Univativ I worked at SOKA Dach and realised various projects, like a Raspberry
+					Again emplyed by <Button variant="link" size="link" href="//univativ.de">
+						Univativ
+					</Button> I worked at SOKA Dach and realised various projects, like a Raspberry
 					Pi based email attachment virus scanner, a Raspberry Pi based mediaserver for the entrance
 					hall and various web projects.
 				</div>
