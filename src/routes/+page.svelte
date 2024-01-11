@@ -1,6 +1,26 @@
-<script>
+<script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import { Badge } from '$lib/components/ui/badge';
+	import { onMount } from 'svelte';
+
+    const handleOnMouseMove = (e: MouseEvent) => {
+        const { currentTarget: target} = e;
+
+        if(!target) return;
+
+        const rect = (target as HTMLElement).getBoundingClientRect(),
+            x = e.clientX - rect.left,
+            y = e.clientY - rect.top;
+
+        (target as HTMLElement).style.setProperty('--mouse-x', `${ x }px`);
+        (target as HTMLElement).style.setProperty('--mouse-y', `${ y }px`);
+    }
+
+    onMount(() => {
+        for(const card of document.querySelectorAll(".group")){
+            (card as HTMLElement).onmousemove = e => handleOnMouseMove(e);
+        }
+    });
 </script>
 
 <section
@@ -337,7 +357,7 @@
 		height: calc(100vh - 53px);
 	}
 	#skills {
-        background-color: #84605b;
+        background-image: linear-gradient(to top, #c2886a44, transparent);
 		@apply flex flex-wrap justify-center py-8;
 	}
     section > div > h1 {
@@ -384,7 +404,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 90%;
-		margin-left: 5%;
+		margin-top: 1rem;
 
 		img {
 			height: 70px;
@@ -397,20 +417,29 @@
 			display: block;
 			padding: 5px;
 			border-radius: 10px;
-			border: 2px solid #c2886a;
+			border: 1px solid #c2886a;
 			margin: 10px;
-			background-size: 100% 200%;
-			background-image: linear-gradient(to bottom, #c2886a 50%, transparent 50%);
-			background-position: 0 -100%;
-			transition: background-position 0.2s;
 			overflow: hidden;
-
-			&:hover {
-				background-position: 0 0;
-			}
+            position: relative;
 			> * {
 				z-index: 3;
 			}
+            &::before {
+                border-radius: inherit;
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background-image: radial-gradient(1200px circle at var(--mouse-x) var(--mouse-y), #c2886a33, transparent 50%);
+                opacity: 0;
+                transition: opacity 0.5s;
+            }
+            &:hover::before {
+                opacity: 1;
+            }
 			.items {
 				display: flex;
 				flex-wrap: wrap;
