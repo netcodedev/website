@@ -78,7 +78,7 @@
 					<h3>SOKA Dach</h3>
 					Again emplyed by <Button variant="link" size="link" href="//univativ.de">
 						Univativ
-					</Button> I worked at SOKA Dach and realised various projects, like a Raspberry
+					</Button> I worked at <Button variant="link" size="link" href="https://soka-dach.de/">SOKA Dach</Button> and realised various projects, like a Raspberry
 					Pi based email attachment virus scanner, a Raspberry Pi based mediaserver for the entrance
 					hall and various web projects.
 				</div>
@@ -87,14 +87,14 @@
 				<div class="timeline-start">2021</div>
 				<div class="timeline-content">
 					<h3>Brandhands</h3>
-					While still working at SOKA Dach i helped Brandhands on various web projects.
+					While still working at SOKA Dach i helped <Button variant="link" size="link" href="https://brandhands.de/">Brandhands</Button> on various web projects.
 				</div>
 			</li>
 			<li>
 				<div class="timeline-start">2021</div>
 				<div class="timeline-content">
 					<h3>Boreus <Badge variant="outline" class="ml-3 absolute mt-1">current</Badge></h3>
-					In July 2021 I started working at Boreus as a Frontend Developer. Here I worked on their monitoring
+					In July 2021 I started working at <Button variant="link" size="link" href="https://boreus.de">Boreus</Button> as a Frontend Developer. Here I worked on their monitoring
 					platform BigMoDo.
 				</div>
 			</li>
