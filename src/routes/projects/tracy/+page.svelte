@@ -10,7 +10,7 @@
     </p>
 </section>
 <section class="flex flex-col gap-4 items-center justify-center p-4">
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>Big Brother is watching you</h1>
         <p>
             I have a lot of services running on my server. I want to know, if they are still running and if they are healthy.

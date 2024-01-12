@@ -10,7 +10,7 @@
     </p>
 </section>
 <section class="flex flex-col gap-4 items-center justify-center p-4">
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>Emptying my head</h1>
         <p>
             My Mind is always full of ideas. I have a lot of ideas for projects, that I want to work on. But sometimes I forget about some of them.

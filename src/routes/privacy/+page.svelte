@@ -1,8 +1,9 @@
 <section id="header" class="flex flex-col items-center justify-center gap-4 p-4 text-white">
     <h1 class="text-7xl sm:text-8xl">Privacy Policies</h1>
 </section>
-<section class="border rounded-lg m-4 p-4 w-full max-w-[1000px] mx-auto">
-    <center><h1>Privacy policies</h1></center>
+<section class="flex flex-col gap-4 items-center justify-center p-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
+    	<center><h1>Privacy policies</h1></center>
 		<span><i>Privacy is very important for us and we do all we can to protect your personal information. The following contains information about the
 			collection and use of personal data when using our website. </i><br>
 			<br>
@@ -49,6 +50,7 @@
 		<div id="date_of_validity"> - Friday, 12th January 2024</div>
 		<br><br>
 		<center><i>THANKS FOR YOUR INTEREST AND ATTENTION!</i></center>
+	</div>
 </section>
 
 <style lang="postcss">

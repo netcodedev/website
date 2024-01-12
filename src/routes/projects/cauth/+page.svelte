@@ -10,7 +10,7 @@
     </p>
 </section>
 <section class="flex flex-col gap-4 items-center justify-center p-4">
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The Idea</h1>
         <p>
             The idea for C-Auth came to me in 2020. While working on web projects I often had to implement authentication.
@@ -33,7 +33,7 @@
             Authentication should be proof-of-ownership, not proof-of-knowledge.
         </p>
     </div>
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The Start</h1>
         <p>
             In late 2020 I started implementing a backend API for C-Auth in Java. The original Idea was, that the User would have to install
@@ -47,7 +47,7 @@
             program on their device, which was not very user-friendly. The project came to a halt.
         </p>
     </div>
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The Revolution</h1>
         <p>
             In late 2021 I stumbled upon the <Button variant="link" size="link" href="https://www.w3.org/TR/webauthn/">webauthn standard</Button>.
@@ -67,7 +67,7 @@
             My dreams became reality.
         </p>
     </div>
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The State</h1>
         <p>
             At this point in time, C-Auth is stable and ready to use. It is still in development, but is free for everyone to use.
@@ -75,7 +75,7 @@
             user experience and adding new features. But the core functionality is there and works perfectly.
         </p>
     </div>
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The Future</h1>
         <p>
             In the future I want to secure C-Auth as much as I can. I am aware of some things that could be improved and I am working

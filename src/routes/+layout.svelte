@@ -106,6 +106,7 @@
 	main {
 		margin-top: 53px;
 		min-height: calc(100vh - 53px - 150px);
+		background-color: hsl(20 42% 2%);
 	}
 	footer {
 		height: 150px;
@@ -116,12 +117,6 @@
 				font-weight: 600;
 				font-size: 1.2rem;
 				margin-bottom: 0.5rem;
-			}
-			a {
-				color: var(--accent-foreground);
-				&:hover {
-					color: var(--accent-foreground-hover);
-				}
 			}
 		}
 	}

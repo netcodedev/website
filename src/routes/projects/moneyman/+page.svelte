@@ -10,7 +10,7 @@
     </p>
 </section>
 <section class="flex flex-col gap-4 items-center justify-center p-4">
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>The side-project that evolved</h1>
         <p>
             As a student, money is always tight. It was always hard for me to keep track of my finances.
@@ -37,7 +37,7 @@
             Over the time I added more and more features and at the current point, I am very proud of what I have achieved.
         </p>
     </div>
-    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
         <h1>Features</h1>
         <ul>
             <li>Manage multiple wallets</li>

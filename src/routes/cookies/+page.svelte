@@ -1,11 +1,13 @@
 <section id="header" class="flex flex-col items-center justify-center gap-4 p-4 text-white">
     <h1 class="text-7xl sm:text-8xl">Cookies</h1>
 </section>
-<section class="border rounded-lg m-4 p-4 w-full max-w-[1000px] mx-auto">
-    <h1>Cookies</h1>
-    <span>
-        This site uses no cookies lol
-    </span>
+<section class="flex flex-col gap-4 items-center justify-center p-4">
+    <div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
+		<h1>Cookies</h1>
+		<span>
+			This site uses no cookies lol
+		</span>
+	</div>
 </section>
 
 <style lang="postcss">
