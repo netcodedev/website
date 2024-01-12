@@ -67,7 +67,7 @@
                 PMS is a project-management tool, that aims to solve this problem by providing a place to keep track of your projects and ideas.
             </p>
             <div class="flex justify-end mt-2">
-                <Button size="sm" href="/projects/moneyman">Read more</Button>
+                <Button size="sm" href="/projects/pms">Read more</Button>
             </div>
         </div>
     </div>
