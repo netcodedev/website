@@ -78,20 +78,20 @@
 	</aside> 
 	<nav>
 		<header class="footer-title">Stuff I made</header>
-		<a href="https://c-auth.com">C-Auth</a>
-		<a href="https://moneyman.netcode.dev">MoneyMan</a>
-		<a href="https://pms.netcode.dev">PMS</a>
+		<Button variant="link" size="link" class="justify-start" href="https://c-auth.com">C-Auth</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://moneyman.netcode.dev">MoneyMan</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://pms.netcode.dev">PMS</Button>
 	</nav> 
 	<nav>
 		<header class="footer-title">See also</header>
-		<a href="https://bitbite.dev">bitbite</a>
-		<a href="https://thatsnasu.dev">thatsnasu</a>
+		<Button variant="link" size="link" class="justify-start" href="https://bitbite.dev">bitbite</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://thatsnasu.dev">thatsnasu</Button>
 	</nav> 
 	<nav>
 		<header class="footer-title">Legal</header>
-		<a href="/terms">Terms of use</a>
-		<a href="/privacy">Privacy policy</a>
-		<a href="/cookies">Cookie policy</a>
+		<Button variant="link" size="link" class="justify-start" href="/terms">Terms of use</Button>
+		<Button variant="link" size="link" class="justify-start" href="/privacy">Privacy policy</Button>
+		<Button variant="link" size="link" class="justify-start" href="/cookies">Cookie policy</Button>
 	</nav>
 </footer>
 
