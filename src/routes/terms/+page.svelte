@@ -4,7 +4,7 @@
 <section class="border rounded-lg m-4 p-4 w-full max-w-[1000px] mx-auto">
     <h1>Terms</h1>
     <span>
-    Thank you for using our ("netcode") Services. Those are brought to you by Benedict Mihm, Im Schützenrech 7, 55494 Rheinböllen, Germany.<br/>
+    Thank you for using our ("netcode") Services. Those are brought to you by Benedict Mihm, Lindenstraße 1, 55494 Rheinböllen, Germany.<br/>
     <br/>
     By using our Services, you are agreeing to these <a href="/terms">Terms and Conditions</a> and the <a href="/privacy">Privacy Policies</a>.<br/>
     <br/>
