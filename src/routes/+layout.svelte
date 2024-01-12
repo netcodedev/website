@@ -109,6 +109,7 @@
 	}
 	footer {
 		min-height: 150px;
+		background-color: hsl(20 5% 7%);
 		> nav {
 			display: flex;
 			flex-direction: column;
