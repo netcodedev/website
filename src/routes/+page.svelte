@@ -24,7 +24,7 @@
 </script>
 
 <section
-	class="flex flex-col items-center justify-start p-4 lg:flex-row lg:justify-around text-white"
+	class="flex relative flex-col items-center justify-start p-4 lg:flex-row lg:justify-around text-white"
 	id="banner">
 	<div>
 		<div>
@@ -355,6 +355,7 @@
 			#39313a
 		);
 		height: calc(100vh - 53px);
+        min-height: 460px;
 	}
 	#skills {
         background-image: linear-gradient(to top, #c2886a44, transparent);
