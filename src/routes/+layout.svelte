@@ -106,7 +106,6 @@
 	main {
 		margin-top: 53px;
 		min-height: calc(100vh - 53px - 150px);
-		background-color: hsl(20 42% 2%);
 	}
 	footer {
 		min-height: 150px;
