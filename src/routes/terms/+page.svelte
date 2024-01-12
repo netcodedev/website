@@ -1,8 +1,5 @@
 <section id="header" class="flex flex-col items-center justify-center gap-4 p-4 text-white">
     <h1 class="text-7xl sm:text-8xl">Terms and Conditions</h1>
-    <p class="text-center">
-        a monitoring-management tool
-    </p>
 </section>
 <section class="border rounded-lg m-4 p-4 w-full max-w-[1000px] mx-auto">
     <h1>Terms</h1>
