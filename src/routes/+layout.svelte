@@ -58,7 +58,7 @@
 		</form>
 	</div>
 </section> -->
-<footer>
+<footer class="flex flex-col sm:flex-row justify-around p-4 gap-2">
 	<aside>
 		<Button
 			variant="ghost"
@@ -108,9 +108,6 @@
 		min-height: calc(100vh - 53px - 172.8px);
 	}
 	footer {
-		display: flex;
-		justify-content: space-around;
-		padding: 2rem;
 		> nav {
 			display: flex;
 			flex-direction: column;
