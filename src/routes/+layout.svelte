@@ -96,12 +96,12 @@
 </footer>
 
 <style lang="postcss">
+	:global(.dark #header) {
+		background-color: oklch(0 0 0 / 0.7) !important;
+	}
 	#header {
 		background-color: oklch(100 0 0 / 0.2);
 		backdrop-filter: blur(5px);
-	}
-	:global(.dark #header) {
-		background-color: oklch(0 0 0 / 0.7);
 	}
 	main {
 		margin-top: 53px;
