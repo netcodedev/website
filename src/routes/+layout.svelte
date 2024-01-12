@@ -105,9 +105,10 @@
 	}
 	main {
 		margin-top: 53px;
-		min-height: calc(100vh - 53px - 172.8px);
+		min-height: calc(100vh - 53px - 150px);
 	}
 	footer {
+		height: 150px;
 		> nav {
 			display: flex;
 			flex-direction: column;
