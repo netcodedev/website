@@ -15,8 +15,8 @@
 	<a href="/">Benedict Mondini</a>
 	<nav class="flex items-center gap-1">
 		<Button variant="link" size="slim" href="/">Home</Button>
-		<!-- <Button variant="link" size="slim" href="/blog">Blog</Button>
-		<Button variant="link" size="slim" href="/projects">Projects</Button> -->
+		<!-- <Button variant="link" size="slim" href="/blog">Blog</Button> -->
+		<Button variant="link" size="slim" href="/projects">Projects</Button>
 		<Button
 			variant="ghost"
 			size="icon"
