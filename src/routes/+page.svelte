@@ -107,7 +107,7 @@
 	<div class="w-full max-w-[1000px]">
 		<h1>My Skills</h1>
     </div>
-    <div class="w-full max-w-[1000px] mx-auto text-xl mt-6">
+    <div class="w-full max-w-[1000px] mx-auto text-xl mt-6 p-4">
         <p>
             Over the time I have experimented with many different pieces of tech. Mostly fascinated by programming itself I
             have tried many different languages and frameworks. Starting with Java in 2011 and soon after moving to web development
