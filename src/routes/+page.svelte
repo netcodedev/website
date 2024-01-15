@@ -47,7 +47,9 @@
 					PMS
 				</Button> and even more...
 			</p>
-			<p class="w-full max-w-60">I host all my projects on a server in virtualized environments.</p>
+			<p class="w-full max-w-60">
+                I manage my own infrastructure and host all my projects on my own servers.
+            </p>
 		</div>
 	</div>
 	<img src="/images/Face.svg" alt="This is me" class="h-[40vh] lg:h-[70vh]" />
@@ -104,6 +106,30 @@
 <section id="skills">
 	<div class="w-full max-w-[1000px]">
 		<h1>My Skills</h1>
+    </div>
+    <div class="w-full max-w-[1000px] mx-auto text-xl mt-6">
+        <p>
+            Over the time I have experimented with many different pieces of tech. Mostly fascinated by programming itself I
+            have tried many different languages and frameworks. Starting with Java in 2011 and soon after moving to web development
+            I have gone back and forth many times. I extended my knowledge with every step along the way. And I will continue to strive
+            to learn new things and improve my skills.
+        </p>
+        <p class="mt-2">
+            I learned not only how to code, but also how to deploy it and make it publicly available. Renting servers and managing them
+            myself I learned a lot about server management and the Linux operating system. To this day I manage my own infrastructure
+            and host all my projects on my own servers. From Proxmox as a hypervisor for my virtual machines to OPNSense as a firewall,
+            from Apache2 as a ReverseProxy to all of the NodeJS applications I host. My deep understanding of the underlying
+            technologies helps me to quickly identify and fix problems.
+        </p>
+        <p class="mt-2">
+            Many say you should not reinvent the wheel. I say, that in doing so you can learn way more than in just using the technologies
+            that are already there. Thats why I often build proof-of-concepts that <i>of course</i> do not go into production. But they help me
+            to understand the underlying technologies and to learn new things. It helps me understand the design decisions that were made
+            and compare similar technologies.
+        </p>
+        <p class="mt-2">
+            Below you can find a list of technologies I have worked with. 
+        </p>
     </div>
     <div class="skillportfolio">
         <div class="group">
