@@ -75,6 +75,7 @@
 			<span class="sr-only">GitHub</span>
 		</Button>
 		<p>&copy; 2024 Benedict Mondini</p>
+		<p><Button variant="link" size="link" href="mailto:benmondini@netcode.dev">benmondini@netcode.dev</Button></p>
 	</aside> 
 	<nav>
 		<header class="footer-title">Stuff I made</header>
