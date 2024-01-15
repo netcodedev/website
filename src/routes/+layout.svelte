@@ -58,7 +58,7 @@
 		</form>
 	</div>
 </section> -->
-<footer class="flex flex-col sm:flex-row justify-around p-4 gap-2">
+<footer class="flex flex-col sm:flex-row justify-around p-4 gap-2 text-white">
 	<aside>
 		<Button
 			variant="ghost"
