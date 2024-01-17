@@ -3,8 +3,6 @@
 	import '../typography.pcss';
 	import { ModeWatcher } from 'mode-watcher';
 	import { Button } from '$lib/components/ui/button';
-	import { Input } from "$lib/components/ui/input";
-	import { Textarea } from "$lib/components/ui/textarea";
 	import { Sun, Moon } from 'radix-icons-svelte';
 	import { toggleMode } from 'mode-watcher';
 </script>
@@ -45,19 +43,6 @@
 <main>
 	<slot />
 </main>
-<!-- <section class="bg-muted">
-	<div class="w-full max-w-[1000px] p-4 mx-auto">
-		<h1>You have reached the end of the page</h1>
-		<p>
-			Wanna contact me? Feel free to fill out the form below or send me an email at <a href="mailto:benmondini@netcode.dev">benmondini@netcode.dev</a>
-		</p>
-		<form action="" method="POST" class="flex flex-col gap-2">
-			<Input type="text" placeholder="Your name" class="border border-accent-foreground"/>
-			<Input type="email" placeholder="Your email" class="border border-accent-foreground"/>
-			<Textarea placeholder="Your message" class="h-48 bg-background border border-accent-foreground"/>
-		</form>
-	</div>
-</section> -->
 <footer class="flex flex-col sm:flex-row justify-around p-4 gap-2 text-white">
 	<aside>
 		<Button

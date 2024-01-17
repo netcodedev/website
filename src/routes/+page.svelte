@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
 	import { Badge } from '$lib/components/ui/badge';
+	import { Input } from "$lib/components/ui/input";
+	import { Textarea } from "$lib/components/ui/textarea";
 	import { onMount } from 'svelte';
 
     const handleOnMouseMove = (e: MouseEvent) => {
@@ -361,6 +363,22 @@
             </div>
         </div>
     </div>
+</section>
+<section class="bg-accent-foreground">
+	<div class="w-full max-w-[1000px] p-4 mx-auto">
+		<h1>You have reached the end of the page</h1>
+		<p>
+			Wanna contact me? Feel free to fill out the form below or send me an email at <a href="mailto:benmondini@netcode.dev">benmondini@netcode.dev</a>
+		</p>
+		<form action="?/sendMessage" method="POST" class="flex flex-col gap-2">
+            <div class="flex gap-2">
+                <Input type="text" name="name" placeholder="Your name" class="bg-accent-foreground border border-white placeholder-red"/>
+			    <Input type="email" name="email" placeholder="Your email" class="bg-accent-foreground border border-white placeholder-slate-300"/>
+            </div>
+			<Textarea placeholder="Your message" name="message" class="h-48 bg-accent-foreground border border-white placeholder-slate-300"/>
+            <Button type="submit" variant="default">Send</Button>
+		</form>
+	</div>
 </section>
 
 <style lang="postcss">

@@ -23,6 +23,9 @@ dependencies:
   radix-icons-svelte:
     specifier: ^1.2.1
     version: 1.2.1
+  surrealdb.js:
+    specifier: ^0.11.0
+    version: 0.11.0
   tailwind-merge:
     specifier: ^2.2.0
     version: 2.2.0
@@ -2551,6 +2554,17 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
+  /surrealdb.js@0.11.0:
+    resolution: {integrity: sha512-x/Qd0UYyNilwY27JZlWgP8NsCdBzDtextRzP9oIm7xO27qsZvE5Rh4wnYN0xD68zgRAE4W8Jsufbm+hKbaGsTg==}
+    dependencies:
+      unws: 0.2.4(ws@8.16.0)
+      ws: 8.16.0
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
   /svelte-check@3.6.3(postcss-load-config@5.0.2)(postcss@8.4.33)(svelte@4.2.8):
     resolution: {integrity: sha512-Q2nGnoysxUnB9KjnjpQLZwdjK62DHyW6nuH/gm2qteFnDk0lCehe/6z8TsIvYeKjC6luKaWxiNGyOcWiLLPSwA==}
     hasBin: true
@@ -2791,6 +2805,15 @@ packages:
     hasBin: true
     dev: true
 
+  /unws@0.2.4(ws@8.16.0):
+    resolution: {integrity: sha512-/N1ajiqrSp0A/26/LBg7r10fOcPtGXCqJRJ61sijUFoGZMr6ESWGYn7i0cwr7fR7eEECY5HsitqtjGHDZLAu2w==}
+    engines: {node: '>=16.14.0'}
+    peerDependencies:
+      ws: '*'
+    dependencies:
+      ws: 8.16.0
+    dev: false
+
   /update-browserslist-db@1.0.13(browserslist@4.22.2):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
@@ -2884,6 +2907,19 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
+  /ws@8.16.0:
+    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
+
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
@@ -2901,3 +2937,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: false
