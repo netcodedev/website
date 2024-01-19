@@ -17,6 +17,10 @@ jobs:
         node-version: [21.x]
     steps:
     - uses: actions/checkout@v3
+    - name: Install surrealdb
+      run: curl -sSf https://install.surrealdb.com | sh
+    - name: Start Database
+      run: screen -AmdS surreal surreal start --user root --pass pass -A --auth memory
     - uses: pnpm/action-setup@v2
       with:
         version: 8
