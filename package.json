@@ -40,7 +40,7 @@
 		"bits-ui": "^0.18.1",
 		"clsx": "^2.1.0",
 		"mode-watcher": "^0.2.1",
-		"postcss-import": "^16.0.0",
+		"postcss-import": "^16.0.1",
 		"postcss-nesting": "^12.0.2",
 		"radix-icons-svelte": "^1.2.1",
 		"surrealdb.js": "^0.11.0",
