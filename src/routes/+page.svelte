@@ -403,7 +403,7 @@
 	}
 	#skills {
         background-image: linear-gradient(to top, #c2886a44, transparent);
-		@apply flex flex-col justify-center py-8;
+		@apply flex flex-col items-center py-8;
 	}
     section > div > h1 {
         margin-left: 1rem;
