@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0
   mode-watcher:
-    specifier: ^0.2.1
-    version: 0.2.1(svelte@4.2.12)
+    specifier: ^0.2.2
+    version: 0.2.2(svelte@4.2.12)
   postcss-import:
     specifier: ^16.0.1
     version: 16.0.1(postcss@8.4.35)
@@ -1883,8 +1883,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /mode-watcher@0.2.1(svelte@4.2.12):
-    resolution: {integrity: sha512-HLmJgG5kmJCFR/+rcG2te54HjIxqk7BTAsFnsygZR5hcOYlhLEJQ0V8rh1axv2JQIbOAZs1yPlUBSpVATRFtUw==}
+  /mode-watcher@0.2.2(svelte@4.2.12):
+    resolution: {integrity: sha512-QjkHQL9pXrr7Vb0P3WbOWAF8mv1Q6jEwUZ5GUyCnI9eEoXH234zuaOGChUF7ZQtjxwtmXDzKFSW/36TvLDg1/A==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
