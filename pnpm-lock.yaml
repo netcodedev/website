@@ -24,8 +24,8 @@ dependencies:
     specifier: ^1.2.1
     version: 1.2.1
   surrealdb.js:
-    specifier: ^0.11.0
-    version: 0.11.0
+    specifier: ^0.11.1
+    version: 0.11.1
   tailwind-merge:
     specifier: ^2.2.2
     version: 2.2.2
@@ -2637,8 +2637,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surrealdb.js@0.11.0:
-    resolution: {integrity: sha512-x/Qd0UYyNilwY27JZlWgP8NsCdBzDtextRzP9oIm7xO27qsZvE5Rh4wnYN0xD68zgRAE4W8Jsufbm+hKbaGsTg==}
+  /surrealdb.js@0.11.1:
+    resolution: {integrity: sha512-VgIO8uym/+VR7pBvLDSZYXV51CKYIN8eUj9kM44rDLGg3lMlmhnQrFPgi1wD+OZ/c85cLwO2zicVvmA8C0MmIg==}
     dependencies:
       unws: 0.2.4(ws@8.16.0)
       ws: 8.16.0
