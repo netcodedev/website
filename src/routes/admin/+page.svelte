@@ -1,6 +1,6 @@
 <script lang="ts">
     import * as Tabs from "$lib/components/ui/tabs";
-	import type { PageData } from "../$types";
+	import type { PageData } from "./$types";
 
     export let data: PageData;
 </script>
