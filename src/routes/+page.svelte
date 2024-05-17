@@ -106,7 +106,7 @@
 				<div class="timeline-start">2024</div>
 				<div class="timeline-content">
 					<h3>WIIT <Badge variant="outline" class="ml-3 absolute mt-1">current</Badge></h3>
-					In early 2024 Boreus merged with WIIT AG. I'm still working on BigMoDo.
+					In early 2024 Boreus merged with <Button variant="link" size="link" href="https://www.wiit.cloud/">WIIT</Button>. I'm still working on BigMoDo.
 				</div>
 			</li>
 		</ul>
