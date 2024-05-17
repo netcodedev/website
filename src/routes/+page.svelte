@@ -97,9 +97,16 @@
 			<li>
 				<div class="timeline-start">2021</div>
 				<div class="timeline-content">
-					<h3>Boreus <Badge variant="outline" class="ml-3 absolute mt-1">current</Badge></h3>
-					In July 2021 I started working at <Button variant="link" size="link" href="https://boreus.de">Boreus</Button> as a Frontend Developer. Here I worked on their monitoring
-					platform BigMoDo.
+					<h3>Boreus</h3>
+					In July 2021 I started working at <Button variant="link" size="link" href="https://boreus.de">Boreus</Button> as a Frontend Developer. 
+                    Here I worked on their monitoring platform BigMoDo.
+				</div>
+			</li>
+			<li>
+				<div class="timeline-start">2024</div>
+				<div class="timeline-content">
+					<h3>WIIT <Badge variant="outline" class="ml-3 absolute mt-1">current</Badge></h3>
+					In early 2024 Boreus merged with WIIT AG. I'm still working on BigMoDo.
 				</div>
 			</li>
 		</ul>
