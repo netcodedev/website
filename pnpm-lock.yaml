@@ -85,8 +85,8 @@ importers:
         specifier: ^4.2.19
         version: 4.2.19
       svelte-check:
-        specifier: ^4.0.6
-        version: 4.0.6(picomatch@4.0.2)(svelte@4.2.19)(typescript@5.6.3)
+        specifier: ^4.0.7
+        version: 4.0.7(picomatch@4.0.2)(svelte@4.2.19)(typescript@5.6.3)
       tailwindcss:
         specifier: ^3.4.14
         version: 3.4.14
@@ -1540,8 +1540,8 @@ packages:
     engines: {node: '>=18.0.0'}
     deprecated: Please visit https://www.npmjs.com/package/surrealdb for the updated SurrealDB SDK.
 
-  svelte-check@4.0.6:
-    resolution: {integrity: sha512-2XwmQNJaKbenJbvu5at+DuRpvF4v73Zu7f0/WkMl1O7WDm/IfF+E13t8D0nnRiRcMsNYm9ufHyLwfeMEnebpdg==}
+  svelte-check@4.0.7:
+    resolution: {integrity: sha512-24hwo+D5L35HOXsh3Z2sU4WhdDLavlHquYaJhrEqAt+mV1xOVzoMVYThW80n99osDJxyuH+vxjNFkNRL4EvwTg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3054,12 +3054,12 @@ snapshots:
       bufferutil: 4.0.8
       utf-8-validate: 6.0.4
 
-  svelte-check@4.0.6(picomatch@4.0.2)(svelte@4.2.19)(typescript@5.6.3):
+  svelte-check@4.0.7(picomatch@4.0.2)(svelte@4.2.19)(typescript@5.6.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
       fdir: 6.4.0(picomatch@4.0.2)
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       sade: 1.8.1
       svelte: 4.2.19
       typescript: 5.6.3
@@ -3174,7 +3174,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   uri-js@4.4.1:
     dependencies:
