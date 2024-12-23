@@ -13,7 +13,7 @@
 		"db": "screen -AmdS cauthdb surreal start -A --auth file://db"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^5.2.10",
+		"@sveltejs/adapter-node": "^5.2.11",
 		"@sveltejs/kit": "^2.15.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@types/eslint": "9.6.1",
