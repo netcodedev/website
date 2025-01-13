@@ -85,8 +85,8 @@ importers:
         specifier: ^5.16.5
         version: 5.16.5
       svelte-check:
-        specifier: ^4.1.1
-        version: 4.1.1(picomatch@4.0.2)(svelte@5.16.5)(typescript@5.7.2)
+        specifier: ^4.1.4
+        version: 4.1.4(picomatch@4.0.2)(svelte@5.16.5)(typescript@5.7.2)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -1539,8 +1539,8 @@ packages:
     engines: {node: '>=18.0.0'}
     deprecated: Please visit https://www.npmjs.com/package/surrealdb for the updated SurrealDB SDK.
 
-  svelte-check@4.1.1:
-    resolution: {integrity: sha512-NfaX+6Qtc8W/CyVGS/F7/XdiSSyXz+WGYA9ZWV3z8tso14V2vzjfXviKaTFEzB7g8TqfgO2FOzP6XT4ApSTUTw==}
+  svelte-check@4.1.4:
+    resolution: {integrity: sha512-v0j7yLbT29MezzaQJPEDwksybTE2Ups9rUxEXy92T06TiA0cbqcO8wAOwNUVkFW6B0hsYHA+oAX3BS8b/2oHtw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3035,7 +3035,7 @@ snapshots:
       bufferutil: 4.0.8
       utf-8-validate: 6.0.4
 
-  svelte-check@4.1.1(picomatch@4.0.2)(svelte@5.16.5)(typescript@5.7.2):
+  svelte-check@4.1.4(picomatch@4.0.2)(svelte@5.16.5)(typescript@5.7.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
