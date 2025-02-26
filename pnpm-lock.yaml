@@ -61,8 +61,8 @@ importers:
         specifier: ^9.20.1
         version: 9.20.1(jiti@1.21.6)
       eslint-config-prettier:
-        specifier: ^9.1.0
-        version: 9.1.0(eslint@9.20.1(jiti@1.21.6))
+        specifier: ^10.0.2
+        version: 10.0.2(eslint@9.20.1(jiti@1.21.6))
       eslint-plugin-svelte:
         specifier: ^2.46.1
         version: 2.46.1(eslint@9.20.1(jiti@1.21.6))(svelte@5.16.5)
@@ -960,8 +960,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-prettier@9.1.0:
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+  eslint-config-prettier@10.0.2:
+    resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2646,7 +2646,7 @@ snapshots:
       eslint: 9.20.1(jiti@1.21.6)
       semver: 7.6.2
 
-  eslint-config-prettier@9.1.0(eslint@9.20.1(jiti@1.21.6)):
+  eslint-config-prettier@10.0.2(eslint@9.20.1(jiti@1.21.6)):
     dependencies:
       eslint: 9.20.1(jiti@1.21.6)
 
