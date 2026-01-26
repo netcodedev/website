@@ -83,17 +83,8 @@
 	<div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
 		<h1>The State</h1>
 		<p>
-			At this point in time, C-Auth is stable and ready to use. It is still in development, but is
-			free for everyone to use. I am using C-Auth for all of my projects and it works just as i
-			wished it would. I am still working on improving the user experience and adding new features.
-			But the core functionality is there and works perfectly.
-		</p>
-	</div>
-	<div class="border rounded-lg p-4 w-full max-w-[1000px] flex flex-col gap-4 bg-background">
-		<h1>The Future</h1>
-		<p>
-			In the future I want to secure C-Auth as much as I can. I am aware of some things that could
-			be improved and I am working on finding solutions.
+			At this point in time, C-Auth is stable and ready to use. It is still not finished, but is
+			free for everyone to use. I am currently evaluating wether further development is worth it.
 		</p>
 	</div>
 </section>

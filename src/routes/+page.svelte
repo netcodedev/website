@@ -39,15 +39,7 @@
 				I'm a fullstack developer from Germany. I love to build and deploy projects for the web.
 			</p>
 			<p class="w-full max-w-60">
-				I'm currently working on <Button variant="link" size="link" href="/projects/cauth">
-					C-Auth
-				</Button>,
-				<Button variant="link" size="link" href="/projects/moneyman">MoneyMan</Button> and <Button
-					variant="link"
-					size="link"
-					href="/projects/PMS">
-					PMS
-				</Button> and even more...
+				I'm currently working on BuMAcS, a CRM solution for my business.
 			</p>
 			<p class="w-full max-w-60">
 				I manage my own infrastructure and host all my projects on my own servers.
@@ -123,6 +115,13 @@
 					</Button>. I'm still working on BigMoDo.
 				</div>
 			</li>
+			<li>
+				<div class="timeline-start">2026</div>
+				<div class="timeline-content">
+					<h3>Side Business</h3>
+					I started my own side business. I develop Softwaresolutions for small and medium sized businesses.
+				</div>
+			</li>
 		</ul>
 	</div>
 </section>
@@ -150,7 +149,7 @@
 			Many say you should not reinvent the wheel. I say, that in doing so you can learn way more
 			than in just using the technologies that are already there. Thats why I often build
 			proof-of-concepts that <i>of course</i>
-			 do not go into production. But they help me to understand the underlying technologies and to learn
+			do not go into production. But they help me to understand the underlying technologies and to learn
 			new things. It helps me understand the design decisions that were made and compare similar technologies.
 		</p>
 		<p class="mt-2">Below you can find a list of technologies I have worked with.</p>
@@ -171,21 +170,13 @@
 					<img src="/images/skills/sass.svg" alt="SASA" />
 					<span>SASS</span>
 				</a>
-				<a href="https://www.php.net/">
-					<img src="/images/skills/php.svg" alt="PHP" />
-					<span>PHP</span>
-				</a>
 				<a href="https://de.wikipedia.org/wiki/JavaScript">
 					<img src="/images/skills/js.svg" alt="JavaScript" />
 					<span>JavaScript</span>
 				</a>
-				<a href="https://jquery.com/">
-					<img src="/images/skills/jquery.svg" alt="jQuery" />
-					<span>jQuery</span>
-				</a>
-				<a href="https://www.json.org/">
-					<img src="/images/skills/json.svg" alt="JSON" />
-					<span>JSON</span>
+				<a href="https://www.rust-lang.org/">
+					<img src="/images/skills/rust.svg" alt="Rust" />
+					<span>Rust</span>
 				</a>
 				<a href="https://www.java.com/">
 					<img src="/images/skills/java.svg" alt="Java" />
@@ -199,15 +190,19 @@
 					<img src="/images/skills/mysql.svg" alt="MySQL" />
 					<span>MySQL</span>
 				</a>
-				<a href="https://www.python.org/">
-					<img src="/images/skills/python.svg" alt="Python" />
-					<span>Python</span>
-				</a>
 			</div>
 		</div>
 		<div class="group">
 			<h2>IDEs</h2>
 			<div class="items">
+				<a href="https://code.visualstudio.com/">
+					<img src="/images/skills/vscode.svg" alt="VS Code" />
+					<span>VS Code</span>
+				</a>
+				<a href="https://antigravity.google/">
+					<img src="/images/skills/antigravity.svg" alt="Antigravity" />
+					<span>Antigravity</span>
+				</a>
 				<a href="https://www.eclipse.org/">
 					<img src="/images/skills/eclipse.svg" alt="Eclipse" />
 					<span>Eclipse</span>
@@ -215,26 +210,6 @@
 				<a href="https://visualstudio.microsoft.com/">
 					<img src="/images/skills/vs.svg" alt="Visual Studio" />
 					<span>Visual Studio</span>
-				</a>
-				<a href="https://code.visualstudio.com/">
-					<img src="/images/skills/vscode.svg" alt="VS Code" />
-					<span>VS Code</span>
-				</a>
-				<a href="https://www.mysql.com/de/products/workbench/" class="doubleline">
-					<img src="/images/skills/mysqlworkbench.svg" alt="MySQL Workbench" />
-					<span>
-						MySQL
-						<br />
-						Workbench
-					</span>
-				</a>
-				<a href="https://www.jetbrains.com/de-de/idea/">
-					<img src="/images/skills/intellij-idea.svg" alt="IntelliJ Idea" />
-					<span>IntelliJ Idea</span>
-				</a>
-				<a href="https://www.jetbrains.com/datagrip/">
-					<img src="/images/skills/DataGrip.svg" alt="DataGrip" />
-					<span>DataGrip</span>
 				</a>
 			</div>
 		</div>
@@ -253,34 +228,26 @@
 					<img src="/images/skills/gitlab.svg" alt="GitLab" />
 					<span>GitLab</span>
 				</a>
-				<a href="https://ant.apache.org/">
-					<img src="/images/skills/ant.svg" alt="Apache Ant" />
-					<span>Apache Ant</span>
+				<a href="https://doc.rust-lang.org/cargo/">
+					<img src="/images/skills/cargo.png" alt="Cargo" />
+					<span>Cargo</span>
 				</a>
 				<a href="https://gradle.org/">
 					<img src="/images/skills/gradle.svg" alt="Gradle" />
 					<span>Gradle</span>
-				</a>
-				<a href="https://premake.github.io/">
-					<img src="/images/skills/premake.png" alt="Premake5" />
-					<span>Premake5</span>
 				</a>
 			</div>
 		</div>
 		<div class="group">
 			<h2>Server & Server-Management</h2>
 			<div class="items">
-				<a href="https://termius.com/">
-					<img src="/images/skills/termius.svg" alt="Termius" />
-					<span>Termius</span>
-				</a>
-				<a href="https://winscp.net/">
-					<img src="/images/skills/winscp.png" alt="WinSCP" />
-					<span>WinSCP</span>
-				</a>
 				<a href="https://httpd.apache.org/">
 					<img src="/images/skills/apache2.png" alt="Apache2" />
 					<span>Apache2</span>
+				</a>
+				<a href="https://traefik.io/">
+					<img src="/images/skills/traefik.svg" alt="Traefik" />
+					<span>Traefik</span>
 				</a>
 				<a href="https://pve.proxmox.com/">
 					<img src="/images/skills/proxmox.png" alt="Proxmox" />
@@ -294,6 +261,14 @@
 					<img src="/images/skills/docker.png" alt="Docker" />
 					<span>Docker</span>
 				</a>
+				<a href="https://kubernetes.io/">
+					<img src="/images/skills/kubernetes.svg" alt="Kubernetes" />
+					<span>Kubernetes</span>
+				</a>
+				<a href="https://www.terraform.io/">
+					<img src="/images/skills/terraform.svg" alt="Terraform" />
+					<span>Terraform</span>
+				</a>
 				<a href="https://www.raspberrypi.org/">
 					<img src="/images/skills/rpi.svg" alt="Raspberry Pi" />
 					<span>Raspberry Pi</span>
@@ -303,9 +278,9 @@
 		<div class="group">
 			<h2>Operating Systems</h2>
 			<div class="items">
-				<a href="https://www.microsoft.com/de-de/windows">
-					<img src="/images/skills/windows.svg" alt="Windows" />
-					<span>Windows</span>
+				<a href="https://www.archlinux.org/">
+					<img src="/images/skills/archlinux.svg" alt="Arch Linux" />
+					<span>Arch Linux</span>
 				</a>
 				<a href="https://www.debian.org/">
 					<img src="/images/skills/debian.svg" alt="Debian" />
@@ -315,46 +290,9 @@
 					<img src="/images/skills/ubuntu.svg" alt="Ubuntu" />
 					<span>Ubuntu</span>
 				</a>
-			</div>
-		</div>
-		<div class="group">
-			<h2>Libraries & Frameworks</h2>
-			<div class="items">
-				<a href="https://nodejs.org/">
-					<img src="/images/skills/nodejs.svg" alt="NodeJS" />
-					<span>NodeJS</span>
-				</a>
-				<a href="https://svelte.dev/">
-					<img src="/images/skills/svelte.svg" alt="Svelte" />
-					<span>Svelte</span>
-				</a>
-				<a href="https://kit.svelte.dev/">
-					<img src="/images/skills/svelte.svg" alt="SvelteKit" />
-					<span>SvelteKit</span>
-				</a>
-				<a href="https://daisyui.com/">
-					<img src="/images/skills/daisyui.svg" alt="DaisyUI" />
-					<span>DaisyUI</span>
-				</a>
-				<a href="https://ui.shadcn.com/">
-					<img src="/images/skills/shadcn.svg" alt="shadcn/ui" />
-					<span>shadcn/ui</span>
-				</a>
-				<a href="https://typo3.org/">
-					<img src="/images/skills/typo3.svg" alt="Typo3" />
-					<span>Typo3</span>
-				</a>
-				<a href="http://tomcat.apache.org/" class="doubleline">
-					<img src="/images/skills/tomcat.svg" alt="Apache Tomcat" />
-					<span>
-						Apache
-						<br />
-						Tomcat
-					</span>
-				</a>
-				<a href="https://wordpress.com/">
-					<img src="/images/skills/wordpress.svg" alt="Wordpress" />
-					<span>Wordpress</span>
+				<a href="https://www.microsoft.com/de-de/windows">
+					<img src="/images/skills/windows.svg" alt="Windows" />
+					<span>Windows</span>
 				</a>
 			</div>
 		</div>
@@ -373,49 +311,16 @@
 				</a>
 			</div>
 		</div>
-		<div class="group">
-			<h2>Other</h2>
-			<div class="items">
-				<a href="https://www.office.com/">
-					<img src="/images/skills/office.svg" alt="Office" />
-					<span>Office</span>
-				</a>
-				<a href="https://www.adobe.com/products/photoshop.html">
-					<img src="/images/skills/photoshop.svg" alt="Photoshop" />
-					<span>Photoshop</span>
-				</a>
-			</div>
-		</div>
 	</div>
 </section>
 <section class="bg-accent-foreground">
 	<div class="w-full max-w-[1000px] p-4 mx-auto">
 		<h1>You have reached the end of the page</h1>
 		<p>
-			Wanna contact me? Feel free to fill out the form below or send me an email at <a
-				href="mailto:benmondini@netcode.dev">
+			Wanna contact me? Feel free to send me an email at <a href="mailto:benmondini@netcode.dev">
 				benmondini@netcode.dev
 			</a>
 		</p>
-		<form action="?/sendMessage" method="POST" class="flex flex-col gap-2">
-			<div class="flex gap-2">
-				<Input
-					type="text"
-					name="name"
-					placeholder="Your name"
-					class="bg-accent-foreground border border-white placeholder-red" />
-				<Input
-					type="email"
-					name="email"
-					placeholder="Your email"
-					class="bg-accent-foreground border border-white placeholder-slate-300" />
-			</div>
-			<Textarea
-				placeholder="Your message"
-				name="message"
-				class="h-48 bg-accent-foreground border border-white placeholder-slate-300" />
-			<Button type="submit" variant="default">Send</Button>
-		</form>
 	</div>
 </section>
 

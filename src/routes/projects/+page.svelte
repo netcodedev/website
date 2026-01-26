@@ -14,8 +14,8 @@
 	<div>
 		<div>
 			<h1>
-				<img src="https://c-auth.com/images/CAuth-logo.svg" alt="C-Auth Logo" />
-				 C-Auth
+				<img src="/images/cauth.svg" alt="C-Auth Logo" />
+				C-Auth
 			</h1>
 			<h4>an authentication service for Websites</h4>
 			<div class="flex gap-2 items-center">
@@ -32,13 +32,6 @@
 						</path>
 					</svg>
 					<span class="sr-only">GitHub</span>
-				</Button>
-				<Badge variant="outline" title="This project is live">Live</Badge>
-				<Badge variant="outline" title="This project is still actively developed">
-					In development
-				</Badge>
-				<Button variant="link" size="link" href="https://c-auth.com" class="text-lg">
-					https://c-auth.com
 				</Button>
 			</div>
 
@@ -66,7 +59,7 @@
 		<div>
 			<h1>
 				<img src="https://moneyman.netcode.dev/logo_256x256.png" alt="MoneyMan Logo" />
-				 MoneyMan
+				MoneyMan
 			</h1>
 			<h4>a money-management tool</h4>
 			<div class="flex gap-2 items-center">

@@ -24,18 +24,17 @@
 		<h4>Your Account</h4>
 		<span>
 			For an effective usage of this site you will need an User Account, which only can be
-			registered from <a href="//bitbite.dev/signup">this site</a>
-			. With this Account you gain access to all of our Applications. Proper disclosure of personal
-			information is required. We reserve the right to block offending Accounts from using our
-			services. You must only create one Account for a unique person. Multiaccount-usage is not
-			allowed and we reserve the right to delete conspicuous accounts. Affected Accounts will be
-			informed in time and have 5 calendar days to refute the allegations. Evidence supporting the
-			uniqueness of a persons account are identitycards, passports, birth certificates and residence
-			permits. Affected accounts will be deactivated immediately, and automatically deleted after 3
-			months. The final and valid decision to terminate an account is up to us and incontestable.
-			You have no fundamental right to an account.
+			registered from <a href="//netcode.dev/signup">this site</a>
+			. With this Account you gain access to all of our Applications. Proper disclosure of personal information
+			is required. We reserve the right to block offending Accounts from using our services. You must
+			only create one Account for a unique person. Multiaccount-usage is not allowed and we reserve the
+			right to delete conspicuous accounts. Affected Accounts will be informed in time and have 5 calendar
+			days to refute the allegations. Evidence supporting the uniqueness of a persons account are identitycards,
+			passports, birth certificates and residence permits. Affected accounts will be deactivated immediately,
+			and automatically deleted after 3 months. The final and valid decision to terminate an account
+			is up to us and incontestable. You have no fundamental right to an account.
 			<i>The judicial way is excluded.</i>
-			 New accounts obtain limited access to all features and applications. Right after the activation
+			New accounts obtain limited access to all features and applications. Right after the activation
 			of an account by a support stuff the account gains extended access. Certain premium features are
 			available for purchase.
 		</span>
@@ -58,7 +57,7 @@
 			control. If you discover a site with malicious content, you can report them by sending an
 			email to
 			<a href="mailto:benmihm@netcode.dev">benmihm@netcode.dev</a>
-			 and we will check its maleficence and remove all links, forwarding to this site.
+			and we will check its maleficence and remove all links, forwarding to this site.
 		</span>
 		<h4>Changes to the Privacy Policies</h4>
 		<span>
