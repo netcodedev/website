@@ -325,6 +325,7 @@
 </section>
 
 <style lang="postcss">
+	@reference "../app.pcss";
 	#banner {
 		background-image: linear-gradient(
 			to right bottom,

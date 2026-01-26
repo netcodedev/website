@@ -203,6 +203,7 @@
 </section>
 
 <style lang="postcss">
+	@reference "../../app.pcss";
 	#header {
 		background-image: linear-gradient(
 			to right bottom,
