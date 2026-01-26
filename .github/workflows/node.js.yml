@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "*" ]
+    branches: ['*']
   pull_request:
-    branches: [ "*" ]
+    branches: ['*']
 
 jobs:
   build:
@@ -16,20 +16,20 @@ jobs:
       matrix:
         node-version: [22.x]
     steps:
-    - uses: actions/checkout@v3
-    - name: Install surrealdb
-      run: curl -sSf https://install.surrealdb.com | sh
-    - name: Start Database
-      run: screen -AmdS surreal surreal start --user root --pass pass -A --auth memory
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - name: Install dependencies
-      run: pnpm i
-    - name: Building project
-      run: pnpm run --if-present build
+      - uses: actions/checkout@v3
+      - name: Install surrealdb
+        run: curl -sSf https://install.surrealdb.com | sh
+      - name: Start Database
+        run: screen -AmdS surreal surreal start --user root --pass pass -A --auth memory
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm i
+      - name: Building project
+        run: pnpm run --if-present build

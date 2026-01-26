@@ -10,7 +10,7 @@ function getDatabase(): Surreal {
 	const database = new Surreal();
 	database.connect(DB_HOST);
 	return database;
-};
+}
 
 /**
  * local database connection
@@ -21,7 +21,7 @@ export const db = getDatabase;
 async function getRootDB(): Promise<Surreal> {
 	const db = getDatabase();
 	await db.signin({ username: DB_USER, password: DB_PASSWORD });
-	await db.use({ namespace: DB_NAMESPACE, database: DB_DATABASE});
+	await db.use({ namespace: DB_NAMESPACE, database: DB_DATABASE });
 	return db;
 }
 

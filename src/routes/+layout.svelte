@@ -60,19 +60,33 @@
 			<span class="sr-only">GitHub</span>
 		</Button>
 		<p>&copy; 2024 Benedict Mondini</p>
-		<p><Button variant="link" size="link" href="mailto:benmondini@netcode.dev">benmondini@netcode.dev</Button></p>
-	</aside> 
+		<p>
+			<Button variant="link" size="link" href="mailto:benmondini@netcode.dev">
+				benmondini@netcode.dev
+			</Button>
+		</p>
+	</aside>
 	<nav>
 		<header class="footer-title">Stuff I made</header>
-		<Button variant="link" size="link" class="justify-start" href="https://c-auth.com">C-Auth</Button>
-		<Button variant="link" size="link" class="justify-start" href="https://moneyman.netcode.dev">MoneyMan</Button>
-		<Button variant="link" size="link" class="justify-start" href="https://pms.netcode.dev">PMS</Button>
-	</nav> 
+		<Button variant="link" size="link" class="justify-start" href="https://c-auth.com">
+			C-Auth
+		</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://moneyman.netcode.dev">
+			MoneyMan
+		</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://pms.netcode.dev">
+			PMS
+		</Button>
+	</nav>
 	<nav>
 		<header class="footer-title">See also</header>
-		<Button variant="link" size="link" class="justify-start" href="https://bitbite.dev">bitbite</Button>
-		<Button variant="link" size="link" class="justify-start" href="https://thatsnasu.dev">thatsnasu</Button>
-	</nav> 
+		<Button variant="link" size="link" class="justify-start" href="https://bitbite.dev">
+			bitbite
+		</Button>
+		<Button variant="link" size="link" class="justify-start" href="https://thatsnasu.dev">
+			thatsnasu
+		</Button>
+	</nav>
 	<nav>
 		<header class="footer-title">Legal</header>
 		<Button variant="link" size="link" class="justify-start" href="/terms">Terms of use</Button>
