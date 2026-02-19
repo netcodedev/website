@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       bits-ui:
-        specifier: ^2.15.6
-        version: 2.15.6(@internationalized/date@3.8.1)(@sveltejs/kit@2.52.0(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.51.2)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)(typescript@5.9.3)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)
+        specifier: ^2.16.0
+        version: 2.16.0(@internationalized/date@3.8.1)(@sveltejs/kit@2.52.0(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.51.2)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)(typescript@5.9.3)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -925,8 +925,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  bits-ui@2.15.6:
-    resolution: {integrity: sha512-5WvnYjxNwPxzCkc+KM4hs3iz650pl8iXAp5e3XB4045N30Rw34uQf0DZ1IKc84eM7cS2U/DUIqL8XwU8FNg4hQ==}
+  bits-ui@2.16.0:
+    resolution: {integrity: sha512-utsUZE7W7MxOQF1jmSYfzUrt2nZxgkq0yPqQcBQ0WQDMq8ETd1yEiHlPpqhMrpKU7IivjSf4XVysDDy+UVkMUw==}
     engines: {node: '>=20'}
     peerDependencies:
       '@internationalized/date': ^3.8.1
@@ -2455,7 +2455,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bits-ui@2.15.6(@internationalized/date@3.8.1)(@sveltejs/kit@2.52.0(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.51.2)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)(typescript@5.9.3)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2):
+  bits-ui@2.16.0(@internationalized/date@3.8.1)(@sveltejs/kit@2.52.0(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.51.2)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2)(typescript@5.9.3)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.4.2)))(svelte@5.51.2):
     dependencies:
       '@floating-ui/core': 1.7.4
       '@floating-ui/dom': 1.7.5
